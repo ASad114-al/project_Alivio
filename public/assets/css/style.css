@@ -1,8 +1,10 @@
 nav{
-    height: 6vh;
+    height: 5vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-bottom: 1px solid #D6D6D6;
+  
 }
 nav ul{
     display: flex;
@@ -21,7 +23,6 @@ nav a{
     text-decoration: none;
     color: #292929;
     padding-left: 20px;
-   
 }
 .btn{
    padding-right: 7%;
@@ -41,8 +42,6 @@ nav a{
     background-image: url('../img/BG.png');
     background-position: center;
     background-size: cover;
-   
-   
 }
 #hero h1{
     margin-left: 15%;
@@ -95,3 +94,45 @@ color: #FFFFFF;
 footer a{
     color: #FFFFFF;;
 }
+
+.solution_video
+{
+    height: 90vh;
+}
+#video img
+{
+  
+    width: 85%;
+}
+#video
+{
+    margin-left: 50%;
+    margin-top: 10%;
+}
+.solution_video a
+{
+    
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+    position: absolute;
+    width: 240px;
+    height: 65px;
+    left: 207px;
+    top: 1577px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#img_404
+{
+margin-top: 10%;
+margin-left: 25%;
+margin-bottom: 5%;
+}
+   
