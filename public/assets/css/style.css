@@ -188,15 +188,98 @@ color: #01996D;
 }
 #card
 {
-    background-image: url(../img/Card.png)   ;
-    background-repeat: no-repeat;
-   
+background-image: url(../img/Card.png)   ;
+background-repeat: no-repeat;  
 position: absolute;
 width: 296.14px;
 height: 293.9px;
 left: 175px;
 top: 1623.1px;
-
-
 border-radius: 3.72971px;
+}
+.main_home
+{
+    height: 160vh;
+}
+.How_it_work
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#How p
+{
+    position: absolute;
+    width: 141px;
+    height: 38px;
+    left: 275px;
+    top: 1149px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%; 
+    color: #424242;
+}
+#How h3
+{
+    position: absolute;
+width: 584px;
+height: 158px;
+left: 275px;
+top: 1184px;
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 157%;
+color: #01996D;
+}
+#Alivio p
+{
+    position: absolute;
+    width: 671px;
+    height: 269px;
+    left: 995px;
+    top: 1247px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+}
+
+#answer
+{
+
+position: absolute;
+width: 390px;
+height: 937px;
+left: 275px;
+top: 1394px;
+}
+#answer p, #write p, #now p
+{
+font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+color: #424242;
+}
+#write
+{
+position: absolute;
+width: 392px;
+height: 854px;
+left: 760px;
+top: 1681px;
+}
+#now
+{
+position: absolute;
+width: 441px;
+height: 856px;
+left: 1247px;
+top: 1448px;
 }
