@@ -3,7 +3,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 1px solid #D6D6D6;
+   /*  border-bottom: 1px solid #D6D6D6; */
   
 }
 nav ul{
@@ -42,6 +42,8 @@ nav a{
     background-image: url('../img/BG.png');
     background-position: center;
     background-size: cover;
+    border-top: 2px solid #D6D6D6;
+
 }
 #hero h1{
     margin-left: 15%;
@@ -197,6 +199,7 @@ left: 175px;
 top: 1623.1px;
 border-radius: 3.72971px;
 }
+/* Home page */
 .main_home
 {
     height: 160vh;
