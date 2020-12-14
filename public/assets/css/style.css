@@ -135,4 +135,68 @@ margin-top: 10%;
 margin-left: 25%;
 margin-bottom: 5%;
 }
+/* 
+community */
+.community
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100vh;
+    margin-top: 15%;
+}
+#product_community
+{
+    margin-left: 5%;
+}
+#product_community h2
+{ 
+font-family: Georgia;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 157%;
+color: #01996D;
+}
+#product_community p:nth-of-type(2)
+{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    
+    color: #484848;
+}
+#product_community a  
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    background: #01996D;
+    border: 1px solid #01996D;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 30%;
+    text-decoration: none;
+    color: white;
+}
+#community_img
+{
+    margin-left: 25%;
    
+}
+#card
+{
+    background-image: url(../img/Card.png)   ;
+    background-repeat: no-repeat;
+   
+position: absolute;
+width: 296.14px;
+height: 293.9px;
+left: 175px;
+top: 1623.1px;
+
+
+border-radius: 3.72971px;
+}
